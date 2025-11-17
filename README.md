@@ -91,7 +91,7 @@ ai-data-discovery-agent/
 5. Ingest the generated JSON files into Quick Suite as knowledge base
 6. Crate Quick Suite Space linking the Knowledge Base
 7. Create a Quick Suite Agent, assign the knowledge base(s), and use the sample prompt template in `quicksuite/setting_up_agent.md`.
-8. Hook the Agenet into your Browser App for end-user access.
+8. Use the Quick Suite's Browser Extension for end-user access.
 
 
 ---
