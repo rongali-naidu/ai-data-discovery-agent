@@ -67,7 +67,7 @@ Quick Suite Knowledge Base              LLM (SQL & reasoning)
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Automated Metadata Extraction**
   Extracts table descriptions, columns, partitions, view SQL, and other metadata from AWS Glue.
