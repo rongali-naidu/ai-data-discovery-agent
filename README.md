@@ -106,13 +106,14 @@ ai-data-discovery-agent/
 
 ## Setup & Deployment
 
-1. Configure IAM roles with appropriate permissions (Glue, Athena, Lake Formation, S3, STS).
-2. Deploy the Lambda functions in the `lambda/` folder (Glue metadata extractor & Athena query collector).
-3. Schedule or trigger the extractor Lambda to populate S3.
-4. Ingest the generated JSON files into Quick Suite as knowledge bases
-5.  Crate Quick Suite Spaces linking the Knowledge Base
-6. Create a Quick Suite Agent, assign the knowledge base(s), and use the prompt template in `quicksuite/agent_prompt_template.md`.
-7. Hook the Agenet into your Browser App for end-user access.
+1. Configure IAM roles with appropriate permissions (Glue, Athena, Lake Formation, S3, STS) documented here [IAM_Policy](https://github.com/rongali-naidu/ai-data-discovery-agent/blob/main/lambda/glue_kb_builder/IAM_Policy.json)
+2. Set up S3 Bucket for storing metadata details required for setting up the Knowledge base
+3. Deploy the Lambda functions with the handler code from `lambda/handler.py` folder.
+4. Schedule or trigger the extractor Lambda to populate S3.
+5. Ingest the generated JSON files into Quick Suite as knowledge bases
+6. Crate Quick Suite Spaces linking the Knowledge Base
+7. Create a Quick Suite Agent, assign the knowledge base(s), and use the prompt template in `quicksuite/agent_prompt_template.md`.
+8. Hook the Agenet into your Browser App for end-user access.
 
 
 ---
