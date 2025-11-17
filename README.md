@@ -90,28 +90,15 @@ ai-data-discovery-agent/
 ├── README.md
 ├── architecture/
 │   ├── ai_data_discovery_architecture.png
-│   └── sequence_diagram.md
 ├── lambda/
 │   ├── glue_kb_builder/
 │   │   ├── handler.py
-│   │   ├── requirements.txt
 │   │   └── IAM_Policy.json
-│   └── athena_sql_collector/
-│       ├── handler.py
-│       ├── requirements.txt
-│       └── IAM_Policy.json
-├── knowledge_base_samples/
-│   ├── AwsDataCatalog/
-│   └── athena_workgroups/
 ├── quicksuite/
-│   ├── knowledge_base_config.md
-│   ├── agent_prompt_template.md
-│   ├── browser_app_setup.md
-│   └── rag_config.yaml
-├── docs/
-│   ├── data_quality_tracker_template.xlsx
-│   ├── data_quality_dimensions.md
-│   └── MDM_considerations.md
+│   ├── setting_knowledge_base.md
+│   ├── setting_spaces.md
+│   ├── setting_agent.md
+│   └── accessing_agent_from_browser_extension.yaml
 └── LICENSE
 ```
 
