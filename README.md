@@ -40,6 +40,11 @@ This repository builds on that momentum — leveraging the latest AWS capabiliti
 ### High-Level Overview
 <img src="architecture/AI-Data-Discovery-Using-Quick-Suite.gif" width="85%" />
 
+1. A user asks a text-based question 
+2. Relevant Context (metadata and sample SQLs) is fetched from Knwoledge Base
+3. Context+Prompt Intrsuctions are sent to the LLM
+4. LLM generates the Response depending on the user question (Clarification on user question around the data or SQL or table details).
+5. Generated response is shared with the user.
 
 ## Features
 
