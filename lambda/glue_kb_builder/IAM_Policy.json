@@ -1,0 +1,61 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "athena:StartQueryExecution",
+                "athena:GetQueryExecution",
+                "athena:GetQueryResults",
+                "athena:ListWorkGroups",
+                "athena:GetWorkGroup",
+                "athena:ListNamedQueries",
+                "athena:GetNamedQuery",
+                "athena:GetQueryRuntimeStatistics"				
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:ListBucketMultipartUploads",
+                "s3:ListMultipartUploadParts",
+                "s3:AbortMultipartUpload",
+                "s3:CreateBucket",
+                "s3:PutObject",
+                "s3:PutBucketPublicAccessBlock",
+                "s3:GetObjectTagging",
+                "s3:PutObjectTagging",
+                "s3:*Object*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "glue:GetTable",
+                "glue:GetDatabase",
+                "glue:GetTables",
+                "glue:GetTableVersion",
+                "glue:GetTableVersions",
+                "glue:GetDatabases",
+                "glue:GetPartition",
+                "glue:GetPartitions",
+                "glue:BatchGetPartition",
+                "glue:StartColumnStatisticsTaskRun",
+                "glue:GetColumnStatisticsTaskRun",
+                "glue:GetColumnStatisticsTaskRuns"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lakeformation:GetDataAccess"
+            ],
+            "Resource": "*"
+        }
+}
