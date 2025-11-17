@@ -1,4 +1,4 @@
-# AI Data Discovery Agent
+# AI Data Discovery Agent using AWS Quick-Suite
 
 
 ## Overview
