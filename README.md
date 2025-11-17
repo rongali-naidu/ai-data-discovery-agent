@@ -3,13 +3,12 @@
 
 ## Overview
 
-This project delivers a complete, production-grade implementation of an **AI-powered Data Discovery & SQL Generation Agent** leveraging the following key components:
+This project provides implementation of an **AI-powered Data Discovery & SQL Generation Agent using AWS Quick Suite** leveraging the following key components:
 
 * **AWS Glue Data Catalog** – for table and metadata management
-* **Amazon Athena** – for execution of generated SQL queries
-* **Amazon S3** – as a knowledge-base store
-* **Amazon Quick Suite** – for knowledge-base ingestion, chat agents, and RAG workflows
-* **Large Language Models (LLMs)** – to interpret natural language, generate SQL, and reason over metadata
+* **Amazon S3** – as object store for JSON Metadata Files generated from the Glue Catalog and Sample SQLs
+* **Amazon Quick Suite** – for knowledge-base ingestion (RAG equivalent), chat agents, and chat browser extension
+* **Large Language Models (LLMs)** – Quick Suite uses built-in LLM and as of now there is optin to configure this . [More details](https://community.amazonquicksight.com/t/quick-suite-llm-model-which-one-is-default-can-we-change/50491)
 
 This solution automates:
 
@@ -55,7 +54,7 @@ This repository builds on that momentum — leveraging the latest AWS capabiliti
 * **RAG-Ready Knowledge Base**
   Stores structured JSON documents in S3, which are ingested into Quick Suite as knowledge bases.
 * **AI Agent Integration**
-  Enables natural language chat for exploring data, discovering schema, generating SQL, and detecting data-quality issues.
+  Enables natural language chat for exploring data, discovering schema, generating SQL, and detecting data-quality issues. Easy Browser-Integration for the Chat-Agent
 * **SQL Generation & Validation**
   Generates safe and optimized SQL statements using LLMs, guided by metadata context and quality rules.
 
@@ -74,10 +73,10 @@ ai-data-discovery-agent/
 │   │   ├── handler.py
 │   │   └── IAM_Policy.json
 ├── quicksuite/
-│   ├── setting_knowledge_base.md
-│   ├── setting_spaces.md
-│   ├── setting_agent.md
-│   └── accessing_agent_from_browser_extension.yaml
+│   ├── setting_up_knowledge_base.md
+│   ├── setting_up_spaces.md
+│   ├── setting_up_agent.md
+│   └── setting_up_browser_extension.md
 └── LICENSE
 ```
 
@@ -89,9 +88,9 @@ ai-data-discovery-agent/
 2. Set up S3 Bucket for storing metadata details required for setting up the Knowledge base
 3. Deploy the Lambda functions with the handler code from `lambda/handler.py` folder.
 4. Schedule or trigger the extractor Lambda to populate S3.
-5. Ingest the generated JSON files into Quick Suite as knowledge bases
-6. Crate Quick Suite Spaces linking the Knowledge Base
-7. Create a Quick Suite Agent, assign the knowledge base(s), and use the prompt template in `quicksuite/agent_prompt_template.md`.
+5. Ingest the generated JSON files into Quick Suite as knowledge base
+6. Crate Quick Suite Space linking the Knowledge Base
+7. Create a Quick Suite Agent, assign the knowledge base(s), and use the sample prompt template in `quicksuite/setting_up_agent.md`.
 8. Hook the Agenet into your Browser App for end-user access.
 
 
