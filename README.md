@@ -24,7 +24,7 @@ This solution automates:
 
 ##  Some Context
 
-In My official AWS Blog publoshed in October 2024 [Enrichment of Metadata for Text-to-SQL](https://aws.amazon.com/blogs/big-data/enriching-metadata-for-accurate-text-to-sql-generation-for-amazon-athena), illustrated how rich, high-quality metadata is *critical* for accurate text-to-SQL generation.  Since then, the landscape has transformed dramatically. New services and frameworks introduced by AWS and others have made building Retrieval-Augmented Generation (RAG) systems, knowledge bases, and chat-agent workflows far simpler and more enterprise-ready.
+In My official AWS Blog publoshed in October 2024 [Enrichment of Metadata for Text-to-SQL](https://aws.amazon.com/blogs/big-data/enriching-metadata-for-accurate-text-to-sql-generation-for-amazon-athena), illustrated how rich, high-quality metadata is *critical* for accurate text-to-SQL generation.  Since then, the landscape has transformed dramatically. New services introduced by AWS and others have made building Retrieval-Augmented Generation (RAG) systems, knowledge bases, and chat-agent workflows far simpler and more enterprise-ready.
 
 In particular, Amazon Quick Suite has come up with more advanced features AI features for the data discovery. Wanted to try it personally for this specific use-case and understand how easy it is compared to developement of the Agents and KBs from scratch.
 
