@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a personal project for implementation of an **AI-powered Data Discovery & SQL Generation Agent using AWS Quick Suite** leveraging the following key components:
+This project is for implementation of an **AI-powered Data Discovery & SQL Generation Agent** using **Amazon Quick Suite** leveraging the following key components:
 
 * **AWS Glue Data Catalog** – for table and metadata management
 * **Amazon S3** – as object store for JSON Metadata Files generated from the Glue Catalog and Sample SQLs
