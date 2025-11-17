@@ -38,34 +38,8 @@ This repository builds on that momentum — leveraging the latest AWS capabiliti
 
 
 ### High-Level Overview
+<img src="architecture/AI-Data-Discovery-Using-Quick-Suite.gif" width="85%" />
 
-```
- ┌──────────────────────────────────────────────┐
- │                Users (Browser App)           │
- └──────────────────────────┬───────────────────┘
-                            │
-                            ▼
-                  Quick Suite AI Agent
-               (RAG + Prompt Template)
-                            │
-         ┌──────────────────┴──────────────────┐
-         ▼                                     ▼
-Quick Suite Knowledge Base              LLM (SQL & reasoning)
- (Glue & Athena JSON)                     
-         ▲                                     │
-         └──────────────────┬──────────────────┘
-                            ▼
-               AWS S3 Knowledge Base Bucket
-                            ▲
-           ┌────────────────┴────────────────┐
-           ▼                                 ▼
-   Lambda: Glue Metadata Builder     Lambda: Athena SQL Collector
-           │                                 │
-           ▼                                 ▼
-    AWS Glue Catalog                  Athena Workgroups
-```
-
----
 
 ## Features
 
