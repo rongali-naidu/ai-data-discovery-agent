@@ -8,7 +8,7 @@ This is a personal project for implementation of an **AI-powered Data Discovery 
 * **AWS Glue Data Catalog** – for table and metadata management
 * **Amazon S3** – as object store for JSON Metadata Files generated from the Glue Catalog and Sample SQLs
 * **Amazon Quick Suite** – for knowledge-base ingestion (RAG equivalent), chat agents, and chat browser extension
-* **Large Language Models (LLMs)** – Quick Suite uses built-in LLM and as of now there is optin to configure this . [More details](https://community.amazonquicksight.com/t/quick-suite-llm-model-which-one-is-default-can-we-change/50491)
+* **Large Language Models (LLMs)** – Quick Suite uses built-in LLM and as of now there is no optin to configure this . [More details](https://community.amazonquicksight.com/t/quick-suite-llm-model-which-one-is-default-can-we-change/50491)
 
 This solution automates:
 
