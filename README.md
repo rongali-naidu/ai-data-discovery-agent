@@ -5,7 +5,8 @@
 
 This project is for implementation of an **AI-powered Data Discovery & SQL Generation Agent** using **Amazon Quick Suite** leveraging the following key components:
 
-* **AWS Glue Data Catalog** – for table and metadata management
+* **Amazon Glue Data Catalog** – for table and metadata management
+* **Amazon Athena** – for collecting saved queries in the workgroups and linking these queries to respective tables.
 * **Amazon S3** – as object store for JSON Metadata Files generated from the Glue Catalog and Sample SQLs
 * **Amazon Quick Suite** – for knowledge-base ingestion (RAG equivalent), chat agents, and chat browser extension
 * **Large Language Models (LLMs)** – Quick Suite uses built-in LLM and as of now there is no optin to configure this . [More details](https://community.amazonquicksight.com/t/quick-suite-llm-model-which-one-is-default-can-we-change/50491)
