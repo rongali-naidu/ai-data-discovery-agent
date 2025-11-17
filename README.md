@@ -84,7 +84,7 @@ ai-data-discovery-agent/
 
 ## Setup & Deployment
 
-1. Configure IAM roles with appropriate permissions (Glue, Athena, Lake Formation, S3, STS) documented here [IAM_Policy](https://github.com/rongali-naidu/ai-data-discovery-agent/blob/main/lambda/glue_kb_builder/IAM_Policy.json)
+1. Configure IAM roles with appropriate permissions (Glue, Athena, Lake Formation, S3, STS) documented here [IAM_Policy](https://github.com/rongali-naidu/ai-data-discovery-agent/blob/main/lambda/glue_kb_builder/IAM_Policy.json). Note: The policy is given as an example and it doesnt restrict the resources. so, change this as per your requirement.
 2. Set up S3 Bucket for storing metadata details required for setting up the Knowledge base
 3. Deploy the Lambda functions with the handler code from `lambda/handler.py` folder.
 4. Schedule or trigger the extractor Lambda to populate S3.
