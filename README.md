@@ -3,7 +3,8 @@
 
 ## Overview
 
-This project is for implementation of an **AI-powered Data Discovery & SQL Generation Agent** using **Amazon Quick Suite** leveraging the following key components:
+This project is for implementation of an **AI-powered Data Discovery & SQL Generation Agent** using **Amazon Quick Suite** leveraging the following key components. You can refer my Linkedin Article on [
+What it means to make the data AI Ready](https://www.linkedin.com/pulse/what-takes-call-ai-ready-naidu-rongali-mgfwc/?trackingId=mBy4Pc3USRKL0hSGjXmDhw%3D%3D) on the broad scope of AI in Data world.
 
 * **Amazon Glue Data Catalog** – for table and metadata management
 * **Amazon Athena** – for collecting saved queries in the workgroups and linking these queries to respective tables.
