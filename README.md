@@ -115,4 +115,6 @@ ai-data-discovery-agent/
 [4]: https://aws.amazon.com/blogs/machine-learning/connect-amazon-quick-suite-to-enterprise-apps-and-agents-with-mcp/ "Connect Amazon Quick Suite to enterprise apps and agents with MCP"
 [5]: https://aws.amazon.com/blogs/aws/reimagine-the-way-you-work-with-ai-agents-in-amazon-quick-suite/ "Announcing Amazon Quick Suite: your agentic teammate for ..."
 [6]: https://aws.amazon.com/blogs/business-intelligence/establishing-enterprise-governance-in-amazon-quick-suite-using-custom-permissions/ "Establishing enterprise governance in Amazon Quick Suite using ..."
+[7]: https://aws.amazon.com/blogs/business-intelligence/announcing-embedded-chat-in-amazon-quick-suite/
+
 
